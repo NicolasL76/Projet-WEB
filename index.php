@@ -1,7 +1,12 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Pierre
- * Date: 17/03/2016
- * Time: 16:00
- */
+<html>
+
+    <head>
+        <title>Projet-WEB</title>
+        <meta charset="utf-8"/>
+    </head>
+
+    <body>
+        <?php echo '<p></p>'; ?>
+    </body>
+
+</html>
