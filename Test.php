@@ -1,5 +1,5 @@
 <?php
 
-    echo 'ananas de tes morts'
+    echo 'ananas 2'
 
 ?>
