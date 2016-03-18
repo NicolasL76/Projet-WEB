@@ -1,7 +1,5 @@
 <?php
-/**
- * Sample layout.
- */
+
 use Core\Error;
 
 ?>
@@ -15,13 +13,13 @@ use Core\Error;
 
 			<hr />
 
-			<h3>The page you were looking for could not be found</h3>
-			<p>This could be the result of the page being removed, the name being changed or the page being temporarily unavailable</p>
-			<h3>Troubleshooting</h3>
+			<h3>La page que vous aves demandé est malheuresement inconne </h3>
+			<p>Le résultat de la page est peut être en cours de suppression , le nom a pu être changé ou la page est temporairement indisponible</p>
+			<h3>Dépannage</h3>
 
 			<ul>
-			  <li>If you spelled the URL manually, double check the spelling</li>
-			  <li>Go to our website's home page, and navigate to the content in question</li>
+			  <li>Vérifiez à nouveau l'URL si vous l'avez rentré à la main</li>
+
 			</ul>
 
 		</div>
