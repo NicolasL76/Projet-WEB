@@ -1,43 +1,27 @@
 <html>
 
     <head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <title>Projet-WEB</title>
         <meta charset="utf-8"/>
     </head>
 
     <body>
-    <center> <?php echo '
-		<h1>Linkedingue</h1>
-
-		<br/>
-
-		<form action="lol.php" method="post">
+    <?php echo '
+		<h1>Portfolio</h1>
+        <div  class="Login">
+		<form action="Profile.php" method="post">
 
 			<p>
+				<label for="prenom">Votre Identifiant:</label>
+				<input type="text" name="login" id="login" max length="20" placeholder="ex:Saussice"/><br/>
 
-				<label for="prenom">Ton Prénom:</label>
-				<input type="text" name="prenom" id="prenom" max length="20" placeholder="Entre ton prénom"/><br/>
+				<label for="nom">Votre Mot de pase:</label>
+				<input type="text" name="mdp" id="mdp" max length="20" placeholder="ex:MAd355"/><br/>
 
-				<label for="nom">Ton Nom:</label>
-				<input type="text" name="nom" id="nom" max length="20" placeholder="Entre ton nom"/><br/>
-
-				<input type="submit" name="connexion" value="se connecter?"/>
+				<input type="submit" name="connexion" value="Lancez Vous!"/>
 			</p>
-		</form>
-		<form action="lol.php" method="post">
-
-			<p>
-
-				<label for="prenom">Ton Prénom:</label>
-				<input type="text" name="prenom" id="prenom" max length="20" placeholder="Entre ton prénom"/><br/>
-
-				<label for="nom">Ton Nom:</label>
-				<input type="text" name="nom" id="nom" max length="20" placeholder="Entre ton nom"/><br/>
-
-				<input type="submit" name="connexion" value="se connecter?"/>
-			</p>
-		</form>
-'; ?>	</center>
+		</form></div>'; ?>
     </body>
 
 </html>
