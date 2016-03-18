@@ -32,8 +32,8 @@ class Welcome extends Controller
      */
     public function index()
     {
-        $data['title'] = 'welcome_text';
-        $data['welcome_message'] ='welcome_message';
+        $data['title'] = 'Eportfolio';
+        $data['welcome_message'] ='Bienvenue sur votre site de Portfolio en ligne ';
 
         View::renderTemplate('header', $data);
         View::render('welcome/welcome', $data);
