@@ -32,7 +32,7 @@ class Welcome extends Controller
      */
     public function index()
     {
-        $data['title'] = 'welcome_text';
+        $data['title'] = 'Créez votre portfolio en quelques clics!';
         $data['welcome_message'] ='welcome_message';
 
         View::renderTemplate('header', $data);
