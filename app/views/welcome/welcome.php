@@ -7,30 +7,13 @@ use Core\Language;
 ?>
 
 <!DOCTYPE html>
-<html lang="en"><head>
+<html xmlns="http://www.w3.org/1999/html"><head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<link rel="icon" href="http://getbootstrap.com/favicon.ico">
-
-	<title>Cover Template for Bootstrap</title>
-
-	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
 	<link href="css/cover.css" rel="stylesheet">
-
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
 
 
 </head>
@@ -64,21 +47,72 @@ use Core\Language;
 				</p>
 			</div>
 
-
-
-			<div class="mastfoot">
-				<div class="inner">
-					<p>Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-				</div>
-			</div>
-
 		</div>
 
 	</div>
 
 </div>
 
+<hr class="featurette-divider"/>
+<form action="lol.php" method="post">
+<div class="row featurette">
+<div class="col-lg-6">
+	<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="140" width="140">
+	<h2>S'inscrire</h2>
 
 
+		<p>
+
+			<label for="prenom">Login :</label><br/>
+			<input type="text" name="login" id="login" max length="20" placeholder="Entre ton prénom"/><br/>
+			<label for="nom">Email:</label><br/>
+			<input type="text" name="mail" id="mail" max length="20" placeholder="Entre ton nom"/><br/>
+
+			<label for="nom">Mot de passe:</label><br/>
+			<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entre ton nom"/><br/>
+			<br/>
+
+		</p>
+</div><!-- /.col-lg-4 -->
+	<div class="col-lg-6">
+		<p>
+			<a  class="btn btn-lg btn-default"type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>subpage">
+				Lancez vous!
+			</a>
+		</p>
+
+	</div><!-- /.col-lg-4 -->
+</div>
+</form>
+<br/>
+
+<hr class="featurette-divider"/>
+<form action="lol.php" method="post">
+	<div class="row featurette">
+	<div class="col-lg-6">
+		<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" height="140" width="140">
+		<h2>Se Connecter</h2>
+
+
+			<p>
+
+				<label for="prenom">Login :</label><br/>
+				<input type="text" name="login" id="login" max length="20" placeholder="Entre ton prénom"/><br/>
+
+				<label for="nom">Mot de passe:</label><br/>
+				<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entre ton nom"/><br/>
+				<br/>
+
+			</p>
+
+	</div><!-- /.col-lg-4 -->
+	<div class="col-lg-6">
+		<a  class="btn btn-lg btn-default"type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>subpage">
+			Lancez vous!
+		</a>
+
+	</div>
+</div>
+</form>
 </body></html>
 
