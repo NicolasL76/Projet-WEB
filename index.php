@@ -33,6 +33,14 @@ if (!is_readable(SMVC.'app/Core/Config.php')) {
     die('No Config.php found, configure and rename Config.example.php to Config.php in app/Core.');
 }
 
+
+
+
+
+
+
+
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
