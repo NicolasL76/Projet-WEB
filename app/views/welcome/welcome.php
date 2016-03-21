@@ -62,8 +62,8 @@ use Core\Language;
 
 		</div><!-- /.col-lg-4 -->
 		<div class="col-lg-6">
-			<a  class="btn btn-lg btn-warning"  type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>subpage">
-				Lancez vous!
+			<a  class="btn btn-lg btn-warning"  type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>editer_portfolio">
+				C'est parti!
 			</a>
 
 		</div>
@@ -105,5 +105,7 @@ use Core\Language;
 
 
 
-</body></html>
+</body>
+
+</html>
 
