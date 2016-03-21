@@ -31,28 +31,27 @@ use Core\Language;
 <div class="ultimate-wrapper">
 	<div class="row featurette">
 		<h2>Se Connecter</h2>
-		<form action="lol.php" method="post">
+		<form action="" method="post">
 			<div class="col-lg-6">
 				<p>
-					<label for="prenom">Login :</label><br/>
-					<input type="text" name="login" id="login" max length="20" placeholder="Entrez votre prénom"/><br/>
+					<label for="prenom">Pseudo :</label><br/>
+					<input type="text" name="login" id="login" max length="20" placeholder="Pseudo"/><br/>
 					<label for="nom">Mot de passe:</label><br/>
-					<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entrez votre nom"/><br/>
+					<input type="password" name="mdp" id="mdp" max length="20" placeholder="Mot de passe"/><br/>
 					<br/>
 				</p>
 			</div>
 			<div class="col-lg-6">
-				<a  class="btn btn-lg btn-warning"  type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>editer_portfolio">
-					C'est parti!
+				<a  class="btn btn-lg btn-warning"  type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>subpage">
+					Connexion
 				</a>
-
 			</div>
 	</div>
 	</form>
 	<hr class="featurette-divider"/>
 	<h2>S'inscrire</h2>
 	<div class="row featurette">
-		<form action="lol.php" method="post">
+		<form action="" method="post">
 			<div class="col-lg-6">
 
 				<fieldset>
@@ -66,7 +65,7 @@ use Core\Language;
 						<input type="text" name="mail" id="mail" max length="20" placeholder="Entrez votre nom"/><br/>
 
 						<label for="nom">Mot de passe:</label><br/>
-						<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entrez votre nom"/><br/>
+						<input type="password" name="mdp" id="mdp" max length="20" placeholder="Entrez votre nom"/><br/>
 						<br/>
 						<span class='msg'><?php echo $msg; ?></span>
 					</p>
@@ -86,11 +85,8 @@ use Core\Language;
 </body>
 <br/>
 <footer>
-	<p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
-	<p class="lead">
-		<a  class="btn btn-lg btn-default" href="<?php echo DIR; ?>subpage">open subpage
-		</a>
-	</p>
+	<p>Copyright &copy; ePortfolio - élèves Exia.Cesi 2016<br/><br/></p>
+
 </footer>
 
 </html>
