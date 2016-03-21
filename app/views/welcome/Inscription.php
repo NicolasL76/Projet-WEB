@@ -18,27 +18,32 @@ use Core\Language;
 
 
 </head>
+<header>
 
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">ePortfolio</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Modifier</a></li>
+					<li><a href="<?php echo DIR; ?>">Deconnexion </a></li>
+					<li><a href="#">lien de partage</a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+</header>
 	<body>
 
 		<!-- bande supérieure -->
-
-		<div class="site-wrapper">
-			<div class="site-wrapper-inner">
-				<div class="cover-container"><!-- Fond de la bande supérieure -->
-					<div class="masthead clearfix">
-						<div class="inner">
-							<h3 class="masthead-brand">iPortfolio</h3>
-								<ul class="nav masthead-nav">
-									<li class="active"><a href="#">Accueil</a></li>
-									<li><a href="#">Connexion</a></li>
-									<li><a href="#">Inscription</a></li>
-								</ul>
-						</div>
-					</div>
-
-
-
 					<form action="lol.php" method="post">
 						<!-- Titre de la mention -->
 						<div class="competences">

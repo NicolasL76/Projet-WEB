@@ -22,7 +22,7 @@ use Core\Language;
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Project name</a>
+						<a class="navbar-brand" href="#">ePortfolio</a>
 					</div>
 					<div id="navbar" class="collapse navbar-collapse">
 						<ul class="nav navbar-nav">
@@ -36,7 +36,7 @@ use Core\Language;
 </header>
 
 <body>
-<br/>
+<br/><br/><br/>
 <div class="ultimate-wrapper">
 				<!-- Page Header -->
 				<div class="row">

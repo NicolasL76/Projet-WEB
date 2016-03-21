@@ -23,7 +23,11 @@ a:hover {
   border-radius: 15px 50px;
 }
 .navbar{
-  background-color:darkorange;
+  background-color:#985f0d;
+}
+
+.navbar-brand{
+ color:whitesmoke;
 }
 /*
  * Base structure
