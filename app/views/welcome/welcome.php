@@ -6,7 +6,8 @@ use Core\Language;
 
 ?>
 
-<html xmlns="http://www.w3.org/1999/html"><head>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,7 +80,7 @@ use Core\Language;
 </div><!-- /.col-lg-4 -->
 	<div class="col-lg-6">
 		<p>
-			<a  class="btn btn-lg btn-warning"type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>">
+			<a  class="btn btn-lg btn-warning"type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>Inscription">
 				S'inscrire
 			</a>
 		</p>

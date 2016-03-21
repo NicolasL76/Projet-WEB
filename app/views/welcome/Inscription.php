@@ -7,14 +7,14 @@ use Core\Language;
 
 ?>
 
-<!DOCTYPE html>
-	<html xmlns="http://www.w3.org/1999/html"><head>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-	<link href="css\cover.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="css/cover.css" rel="stylesheet">
 
 
 </head>
