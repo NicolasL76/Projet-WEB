@@ -19,7 +19,7 @@ use Core\Language;
 <header> <div class="logo-wrapper">
 		<div class="site-wrapper-inner">
 				<div class="inner cover">
-					<h1><i>iPortfolio</i></h1>
+					<h1><i>ePortfolio</i></h1>
 					<p><?php echo $data['welcome_message'] ?></p>
 					<p class="lead">
 						<a  class="btn btn-lg btn-default" href="<?php echo DIR; ?>subpage">open subpage
@@ -92,7 +92,7 @@ use Core\Language;
 </body>
 <br/>
 <footer>
-	<p>Copyright iPortfolio - Saucisse.inc</p>
+	<p>Copyright ePortfolio - Saucisse.inc <br/><br/></p>
 </footer>
 
 </html>
