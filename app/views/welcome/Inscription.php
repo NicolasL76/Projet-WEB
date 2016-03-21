@@ -31,8 +31,9 @@ use Core\Language;
 </header>
 
 
-
+<div class="ultimate-wrapper">
 <!-- Module de Profil -->
+
 <div>
 	<h1>Profil</h1>
 		<form NAME="Profil">
@@ -201,8 +202,12 @@ use Core\Language;
 			</div>
 		</form>
 	</div>
-
+</div>
 </body>
+<br/>
+<footer>
+	<p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
+</footer>
 
 </html>
 

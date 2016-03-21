@@ -224,6 +224,6 @@ use Core\Language;
 				</div>
 
 				<footer>
-					<p>Copyright ePortfolio - Saucisse.inc <br/><br/></p>
+					<p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
 				</footer>
 
