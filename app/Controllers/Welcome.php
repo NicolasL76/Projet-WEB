@@ -53,5 +53,15 @@ class Welcome extends Controller
         View::renderTemplate('footer', $data);
     }
 
+    public function Inscription()
+    {
+        $data['title'] = 'Inscription';
+        $data['welcome_message'] ='Inscription_message';
+
+        View::renderTemplate('header', $data);
+        View::render('welcome/Inscription', $data);
+        View::renderTemplate('footer', $data);
+    }
+
 
 }
