@@ -21,12 +21,11 @@ use Core\Language;
 			<div class="cover-container">
 
 				<div class="inner cover">
-					<h1><?php echo $data['title'] ?></h1>
+					<h1>Iportfolio</h1>
 
 					<p><?php echo $data['welcome_message'] ?></p>
 					<p class="lead">
 						<a  class="btn btn-lg btn-default" href="<?php echo DIR; ?>subpage">
-							<?php echo Language::show('open_subpage', 'Welcome'); ?>
 						</a>
 					</p>
 				</div>
