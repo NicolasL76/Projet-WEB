@@ -42,7 +42,7 @@ use Core\Language;
 			</div>
 			<div>
 				Entrez votre Prénom :
-				<input NAME="Prénom" TYPE="text" SIZE="10" MAXLENGTH="25"></input>
+				<input NAME="Prénom" TYPE="text" SIZE="10" MAXLENGTH="25">
 			</div>
 			<div>
 				Entrez votre Adresse :
