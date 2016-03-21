@@ -16,46 +16,33 @@ use Core\Language;
 
 
 </head>
-<header> <div class="site-wrapper">
+<header> <div class="logo-wrapper">
 		<div class="site-wrapper-inner">
-			<div class="cover-container">
-
 				<div class="inner cover">
-					<h1><?php echo $data['title'] ?></h1>
-
+					<h1><i>iPortfolio</i></h1>
 					<p><?php echo $data['welcome_message'] ?></p>
 					<p class="lead">
-						<a  class="btn btn-lg btn-default" href="<?php echo DIR; ?>subpage">
-							<?php echo Language::show('open_subpage', 'Welcome'); ?>
+						<a  class="btn btn-lg btn-default" href="<?php echo DIR; ?>subpage">open subpage
 						</a>
 					</p>
 				</div>
-
 			</div>
-
-		</div>
-
 	</div>
 </header>
 <body>
 
-
-
-<hr class="featurette-divider"/>
-<h2>Se Connecter</h2>
-<form action="lol.php" method="post">
+<br/>
+<div class="ultimate-wrapper">
 	<div class="row featurette">
+		<h2>Se Connecter</h2>
+		<form action="lol.php" method="post">
 		<div class="col-lg-6">
-
-
-
 			<p>
-
 				<label for="prenom">Login :</label><br/>
-				<input type="text" name="login" id="login" max length="20" placeholder="Entre ton prénom"/><br/>
+				<input type="text" name="login" id="login" max length="20" placeholder="Entrez votre prénom"/><br/>
 
 				<label for="nom">Mot de passe:</label><br/>
-				<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entre ton nom"/><br/>
+				<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entrez votre nom"/><br/>
 				<br/>
 
 			</p>
@@ -70,9 +57,9 @@ use Core\Language;
 	</div>
 </form>
 <hr class="featurette-divider"/>
-<h2>S'inscrire</h2>
-<form action="lol.php" method="post">
+	<h2>S'inscrire</h2>
 <div class="row featurette">
+	<form action="lol.php" method="post">
 <div class="col-lg-6">
 
 
@@ -80,12 +67,12 @@ use Core\Language;
 		<p>
 
 			<label for="prenom">Login :</label><br/>
-			<input type="text" name="login" id="login" max length="20" placeholder="Entre ton prénom"/><br/>
+			<input type="text" name="login" id="login" max length="20" placeholder="Entrez votre prénom"/><br/>
 			<label for="nom">Email:</label><br/>
-			<input type="text" name="mail" id="mail" max length="20" placeholder="Entre ton nom"/><br/>
+			<input type="text" name="mail" id="mail" max length="20" placeholder="Entrez votre nom"/><br/>
 
 			<label for="nom">Mot de passe:</label><br/>
-			<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entre ton nom"/><br/>
+			<input type="text" name="mdp" id="mdp" max length="20" placeholder="Entrez votre nom"/><br/>
 			<br/>
 
 		</p>
@@ -100,12 +87,13 @@ use Core\Language;
 	</div><!-- /.col-lg-4 -->
 </div>
 </form>
-<hr class="featurette-divider"/>
 <br/>
-
-
-
+</div>
 </body>
+<br/>
+<footer>
+	<p>Copyright iPortfolio - Saucisse.inc</p>
+</footer>
 
 </html>
 
