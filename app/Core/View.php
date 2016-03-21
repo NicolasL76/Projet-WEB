@@ -27,6 +27,7 @@ class View
      * @param array  $data  array of data
      * @param array  $error array of errors
      */
+
     public static function render($path, $data = false, $error = false)
     {
         self::sendHeaders();

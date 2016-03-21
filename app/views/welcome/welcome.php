@@ -92,7 +92,7 @@ use Core\Language;
 </div><!-- /.col-lg-4 -->
 	<div class="col-lg-6">
 		<p>
-			<a  class="btn btn-lg btn-warning"type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>Inscription">
+			<a  class="btn btn-lg btn-warning"type="submit" name="connexion" value="Lancez vous!" href="<?php echo DIR; ?>">
 				S'inscrire
 			</a>
 		</p>

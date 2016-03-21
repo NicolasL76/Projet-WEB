@@ -2,7 +2,8 @@
 /**
  * Sample layout.
  */
-#use Core\Language;
+
+use Core\Language;
 
 ?>
 
@@ -13,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<link href="\css\cover.css" rel="stylesheet">
+	<link href="css\cover.css" rel="stylesheet">
 
 
 </head>
@@ -113,23 +114,9 @@
 							</a>
 						</p>
 					</div>
-
-
 				</div>
 			</div>
 		</div>
-
-
-
-
-
-
-
-
-
-
-
 	</body>
-
 </html>
 
