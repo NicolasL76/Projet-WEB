@@ -25,7 +25,10 @@ a:hover {
 .navbar{
   background-color:#985f0d;
 }
-
+.g-recaptcha{
+  margin-right: auto;
+  margin-left: auto
+}
 .navbar-brand{
  color:whitesmoke;
 }
