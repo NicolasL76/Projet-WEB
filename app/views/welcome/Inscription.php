@@ -29,12 +29,12 @@ use Core\Language;
 		</div>
 	</div>
 </header>
-
-
+<br/>
 <div class="ultimate-wrapper">
+<div class="row featurette">
 <!-- Module de Profil -->
 
-<div>
+<div class="col-lg-5">
 	<h1>Profil</h1>
 		<form NAME="Profil">
 			<div>
@@ -88,7 +88,7 @@ use Core\Language;
 
 
 <!-- Module de Formation -->
-<div>
+<div class="col-lg-5">
 	<h1>Formation</h1>
 		<form NAME="Mes Formations">
 			Entrer votre Année de formation :
@@ -120,7 +120,7 @@ use Core\Language;
 	</div>
 
 	<!-- Module de Compétence -->
-<div>
+<div class="col-lg-5">
 	<h1>Compétences</h1>
 		<form NAME="Mes compétences">
 				Catégorie de Compétence :
@@ -133,10 +133,11 @@ use Core\Language;
 			</div>
 		</form>
 </div>
-
-
+</div>
+	<hr class="featurette-divider"/>
+	<div class="row featurette">
 <!-- Modules de Projet -->
-<div>
+<div class="col-lg-5">
 	<h1>Projet</h1>
 		<form NAME="Mes Projets">
 			<div>
@@ -162,7 +163,7 @@ use Core\Language;
 
 
 <!-- Module Experience -->
-<div>
+<div class="col-lg-5">
 		<h1>Experience</h1>
 		<form NAME="Mes Experiences">
 			<div>
@@ -192,19 +193,23 @@ use Core\Language;
 
 
 	<!-- Module thème -->
-	<div>
+	<div class="col-lg-5">
 		<h1>Thème</h1>
 		<form NAME="Mon Thème">
 			<div>
 			Choisissez votre thème de portfolio
-			<input NAME="Choix thème" TYPE=button>
+			<a NAME="Choix thème" TYPE=button>
 			<input NAME="Poste" TYPE=button>
 			</div>
 		</form>
+
 	</div>
 </div>
+	<br/>
+	</div>
+	<br/>
 </body>
-<br/>
+
 <footer>
 	<p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
 </footer>
