@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<link href="C:\wamp64\www\Projet-WEB\css" rel="stylesheet">
+	<link href="\css\cover.css" rel="stylesheet">
 
 
 </head>
