@@ -5,15 +5,15 @@ use Core\Controller;
 use Core\Models;
 use Core\View;
 
-class C_creation_profil extends Controller
+class C_preparation_requete extends Controller
     {
 
-        private $C_creation_profil;
+        private $C_preparation_requete;
 
         function __construct()
         {
             parent::__construct();
-            $this->C_creation_profil=new \Models\M_creation_profil(); //création d'un objet C_creation_profil
+            $this->C_preparation_requete=new \Models\M_creation_profil(); //création d'un objet C_creation_profil
 
 
             if(isset($_POST['inscription'])){
@@ -25,7 +25,7 @@ class C_creation_profil extends Controller
         /**
          * Fonction permettant d'enregistrer des éléments dans la base de données
          */
-        public function C_creation_profil()
+        public function C_preparation_requete()
         {
 
             $enregistrement = new \Models\M_creation_profil();  //création d'un objet enregistrement
