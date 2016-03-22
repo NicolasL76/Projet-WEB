@@ -9,7 +9,7 @@
         function __construct()
         {
             parent::__construct();
-;        }
+        }
 
         public function Enregistrement($login, $password, $mail)
         {

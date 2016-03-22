@@ -16,7 +16,7 @@ use Helpers\Hooks;
 Router::any('', 'Controllers\Welcome@index');
 Router::any('subpage', 'Controllers\Welcome@subPage');
 Router::any('Inscription', 'Controllers\Welcome@Inscription');
-Router::any('Insert', 'Controllers\C_creation_profil@Insert');
+Router::any('C_creation_profil', 'Controllers\C_creation_profil@C_creation_profil');
 
 
 /* Module routes. */

@@ -209,6 +209,6 @@ use Core\Language;
 				</div>
 </body>
 				<footer>
-					<p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
+					<p>Copyright &copy; ePortfolio<br/><br/></p>
 				</footer>
 
