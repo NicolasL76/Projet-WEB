@@ -31,19 +31,19 @@ use Core\Language;
 <div class="ultimate-wrapper">
     <div class="row featurette">
         <h2>Se Connecter</h2>
-        <form action="Subpage.php" method="post">
+        <form action="" method="post">
             <div class="col-lg-6">
                 <p>
-                    <label for="prenom">Login :</label>
-                    <input type="text" name="login" id="login" max length="20" placeholder="Entrez votre prénom"/><br/>
-                    <label for="nom">Mot de passe:</label>
-                    <input type="text" name="mdp" id="mdp" max length="20" placeholder="Entrez votre nom"/><br/>
+                    <label for="login">Login :</label>
+                    <input type="text" name="login" id="login" max length="20" placeholder="Entrez votre pseudo"/><br/>
+                    <label for="mdp">Mot de passe:</label>
+                    <input type="password" name="mdp" id="mdp" max length="20" placeholder="Entrez votre mot de passe"/><br/>
                     <br/>
                 </p>
             </div>
             <div class="col-lg-6">
-                <a class="btn btn-lg btn-warning" type="submit" name="connexion" value="Lancez vous!"
-                   href="<?php echo DIR; ?>subpage">C'est parti!</a>
+                <button class="btn btn-lg btn-warning" type="submit" name="connexion" value="Lancez vous!"
+                   href="<?php echo DIR; ?>subpage">C'est parti!</button>
             </div>
         </form>
     </div>
@@ -51,18 +51,18 @@ use Core\Language;
     <hr class="featurette-divider"/>
     <h2>S'inscrire</h2>
     <div class="row featurette">
-        <form action="Inscription.php" method="post">
+        <form action="Insert" method="post">
             <fieldset>
                 <div class="col-lg-6">
                     <p>
-                        <label for="prenom">Login :</label>
+                        <label for="login">Login :</label>
                         <input type="text" name="login" id="login" max length="20"
                                placeholder="Entrez votre prénom"/><br/>
-                        <label for="nom">Email:</label>
-                        <input type="text" name="mail" id="mail" max length="20" placeholder="Entrez votre nom"/><br/>
+                        <label for="mail">Email:</label>
+                        <input type="text" name="mail" id="mail" max length="20" placeholder="Entrez votre adresse mail"/><br/>
 
-                        <label for="nom">Mot de passe:</label>
-                        <input type="text" name="mdp" id="mdp" max length="20" placeholder="Entrez votre nom"/><br/>
+                        <label for="mdp">Mot de passe:</label>
+                        <input type="password" name="mdp" id="mdp" max length="20" placeholder="Entrez votre mot de passe"/><br/>
                         <br/>
                         <span class='msg'><?php echo $msg; ?></span>
                     </p>
@@ -71,8 +71,7 @@ use Core\Language;
                     <div class="centrer">
                         <div class="g-recaptcha" data-sitekey="6LfQYhsTAAAAAK5mFRaVoNSLkU6KNjvvaE-y1-nB"></div>
                         <p>
-                        <a class="btn btn-lg btn-warning" type="submit" name="connexion"
-                           href="<?php echo DIR; ?>Inscription">S'inscrire</a>
+                            <button class="btn btn-lg btn-warning" type="submit" name="Inscription">S'inscrire</button>
                         </p>
                     </div>
                 </div>
@@ -84,12 +83,5 @@ use Core\Language;
 </body>
 <br/>
 <footer>
-    <p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
-    <p class="lead">
-        <a class="btn btn-lg btn-default" href="<?php echo DIR; ?>subpage">open subpage
-        </a>
-    </p>
+    <p>Copyright &copy; ePortfolio<br/><br/></p>
 </footer>
-
-</html>
-
