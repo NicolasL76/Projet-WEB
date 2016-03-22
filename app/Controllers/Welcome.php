@@ -53,6 +53,9 @@ class Welcome extends Controller
         View::renderTemplate('footer', $data);
     }
 
+    /**
+     * Définit la page inscription et charge les éléments nécessaires à son affichage
+     */
     public function Inscription()
     {
         $data['title'] = 'Inscription';
