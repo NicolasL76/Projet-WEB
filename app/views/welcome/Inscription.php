@@ -8,14 +8,15 @@ use Core\Language;
 
 
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
-
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- feuille de style  -->
+    <!-- Custom styles for this template -->
     <link href="css/cover.css" rel="stylesheet">
+    <!-- Google reCaptcha JS -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <header>
@@ -175,13 +176,11 @@ use Core\Language;
             </form>
         </div>
     </div>
-    <hr class="featurette-divider"/>
-    <p>Saussice test inshalla</p>
-</body>
-
+</div>
 <br/>
+</body>
 <footer>
     <p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
 </footer>
-</html>
+
 

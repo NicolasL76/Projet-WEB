@@ -6,43 +6,23 @@ use Core\Language;
 
 ?>
 
-<link href="css/bootstrap.css" rel="stylesheet" xmlns="http://www.w3.org/1999/html">
 
 <!-- Custom styles for this template -->
 <link href="css/cover.css" rel="stylesheet">
 
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]-->
-
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-
 <!-- Navigation -->
-<header>
-<div class="site-wrapper">
-	<div class="site-wrapper-inner">
-		<div class="cover-container">
-			<div class="masthead clearfix">
-				<div class="inner">
-					<h3 class="masthead-brand">iPortfolio</h3>
-					<nav>
-						<ul class="nav masthead-nav">
-							<li class="active"><a href="#">Modifier</a></li>
-							<li><a href="<?php echo DIR; ?>">Deconnexion </a></li>
-							<li><a href="#">lien de partage</a></li>
-						</ul>
-					</nav>
-				</div>
+<header> <div class="logo-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="inner cover">
+				<a href="http://projet.web/"><h1><i>ePortfolio</i></h1></a>
+				<p>Votre Portfolio</p>
 			</div>
-
+		</div>
+	</div>
 </header>
-			<br/><br/><br/><br/>
 
-
-			<!-- Page Content -->
-			<div class="container">
-
+<body><br/>
+<div class="ultimate-wrapper">
 				<!-- Page Header -->
 				<div class="row">
 					<div class="col-lg-12">
@@ -98,7 +78,7 @@ use Core\Language;
 				</div>
 				<!-- /.row -->
 
-				<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/>
 
 				<!-- Page Header N°2-->
 				<div class="row">
@@ -148,7 +128,7 @@ use Core\Language;
 				</div>
 				<!-- /.row -->
 
-				<br/><br/><br/><br/><br/><br/><br/><br/>
+				<br/>
 
 				<!-- Page Header N°3-->
 				<div class="row">
@@ -178,7 +158,7 @@ use Core\Language;
 				</div>
 				<!-- /.row -->
 
-				<br/><br/><br/><br/><br/><br/><br/><br/>
+				<br/>
 
 				<!-- Page Header N°4-->
 				<div class="row">
@@ -226,14 +206,9 @@ use Core\Language;
 						</div>
 					</div>
 				</form>
-				<!-- Footer -->
+				</div>
+</body>
 				<footer>
-					<div class="row">
-						<div class="col-lg-12">
-							<p>Copyright &copy; Your Website 2014</p>
-						</div>
-					</div>
-					<!-- /.row -->
+					<p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
 				</footer>
 
-			</div>
