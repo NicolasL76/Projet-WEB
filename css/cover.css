@@ -4,7 +4,7 @@ a:focus,
 a:hover {
     color: #fff;
 }
-/*lol*/
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -218,4 +218,7 @@ div .inner .cover {
     .cover-container {
         width: 700px;
     }
+}
+.panel-body{
+    color: black;
 }

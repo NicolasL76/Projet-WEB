@@ -33,7 +33,7 @@ class Welcome extends Controller
     public function index()
     {
         $data['title'] = 'Créez votre portfolio en quelques clics!';
-        $data['welcome_message'] ='welcome_message';
+        $data['welcome_message'] ='Accueil';
 
         View::renderTemplate('header', $data);
         View::render('welcome/welcome', $data);
@@ -45,8 +45,8 @@ class Welcome extends Controller
      */
     public function subPage()
     {
-        $data['title'] = 'subpage_text';
-        $data['welcome_message'] ='subpage_message';
+        $data['title'] = 'Portfolio';
+        $data['welcome_message'] ='Portfolio';
 
         View::renderTemplate('header', $data);
         View::render('welcome/subpage', $data);
@@ -59,12 +59,14 @@ class Welcome extends Controller
     public function Inscription()
     {
         $data['title'] = 'Inscription';
-        $data['welcome_message'] ='Inscription_message';
+        $data['welcome_message'] ='Inscription';
 
         View::renderTemplate('header', $data);
         View::render('welcome/Inscription', $data);
         View::renderTemplate('footer', $data);
     }
+
+
 
 
 }

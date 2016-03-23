@@ -27,9 +27,25 @@ class C_creation_profil extends Controller
          */
         public function C_creation_profil()
         {
+            $check=1;
 
-            $enregistrement = new \Models\M_creation_profil();  //création d'un objet enregistrement
-            $enregistrement->Enregistrement($_POST['login'], $_POST['mdp'], $_POST['mail']);    //Enregistrement prendra en paramètres les "login" "mdp" et "mail" passés par la variable POST
+
+
+
+
+            if ($check==1)
+            {
+                $enregistrement = new \Models\M_creation_profil();  //création d'un objet enregistrement
+                $enregistrement->Enregistrement($_POST['login'], $_POST['mdp'], $_POST['mail']);    //Enregistrement prendra en paramètres les "login" "mdp" et "mail" passés par la variable POST
+            }
+            else {
+
+            }
+
+        }
+
+        public function C_preparation_requete()
+        {
 
         }
     }

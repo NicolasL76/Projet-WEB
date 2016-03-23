@@ -73,11 +73,10 @@ use Core\Language;
                     <input NAME="Sexe" TYPE="text" SIZE="10" MAXLENGTH="25"><br/>
 
                     <label>Entrez le numéro de votre thème :</label>
-                    <input NAME="Thème" TYPE="number" SIZE="10" MAXLENGTH="20"><br/>
-
-
+                    <input NAME="Theme" TYPE="number" SIZE="10" MAXLENGTH="20"><br/>
+                </fieldset>
+            </form>
         </div>
-
 
         <!-- Module de Formation -->
         <div class="col-lg-5">
@@ -100,9 +99,7 @@ use Core\Language;
             </input>
 
             <label>Entrez le descriptif de votre formation :</label>
-            <textearea NAME="Descriptif_Formation" ROWS=4 COLS=34/>
-                <br/>
-
+            <textarea NAME="Descriptif_Formation" ROWS=4 COLS=34/></textarea><br/>
         </div>
 
         <!-- Module de Compétence -->
@@ -113,9 +110,9 @@ use Core\Language;
 
             <label>Entrer votre Compétence :</label>
             <input NAME="Competence" TYPE=text SIZE=10 MAXLENGTH=25><br/>
-
         </div>
     </div>
+
     <hr class="featurette-divider"/>
     <div class="row featurette">
         <!-- Modules de Projet -->
@@ -126,7 +123,6 @@ use Core\Language;
             <input NAME="Nom_Projet" TYPE=text SIZE=10 MAXLENGTH=25><br/>
 
             <label>Décrivez votre projet :</label>
-
             <textarea NAME="Description_Projet" ROWS=4 COLS=34></textarea><br/>
 
             <label>Ajoutez une illustration de votre projet :</label>
@@ -134,7 +130,6 @@ use Core\Language;
 
             <label>Ajoutez le lien de la réalisation de votre projet :</label>
             <input NAME="Lien_Realisation" TYPE=url SIZE=10 MAXLENGTH=200><br/>
-
         </div>
 
 
@@ -152,8 +147,6 @@ use Core\Language;
             <textarea NAME="Detail_Mission" ROWS=4 COLS=34></textarea><br/>
             <label>Entrez votre lieu d'éxperience :</label>
             <input NAME="Lieu_Experience" TYPE=text SIZE=10 MAXLENGTH=25><br/>
-
-
         </div>
 
 
@@ -166,21 +159,17 @@ use Core\Language;
                 <input NAME="Choix thème" TYPE=button>
                 <input NAME="Poste" TYPE=button>
             </div>
-
-
         </div>
 
         <div class="col-lg-5">
             <input type="submit" value="submit"/>
-            </fieldset>
-            </form>
         </div>
     </div>
 </div>
 <br/>
 </body>
 <footer>
-    <p>Copyright &copy; ePortfolio - Saucisse.inc 2016<br/><br/></p>
+    <p>Copyright &copy; ePortfolio<br/><br/></p>
 </footer>
 
 
