@@ -1,11 +1,106 @@
 
+label, input {
+    /* deinie la largeur globale des forms */
+    display: inline-table;
+}
+
+label {
+    width: 35%;
+    /* positionne les titres de chauqe formulaires à droite*/
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    /* force les element a sur une nouvelle ligne a l'aide du marging */
+    margin: 0 30% 0 4%;
+}
+
+/* definition de couleurs pour le body*/
+/* html puis body pour eviter des conflits avec le container invisible de bootstrap */
+html, body {
+    height: 100%;
+    background-color: #303030;
+}
+
+/* container de bootstrap */
+body {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+}
+
+/* definition u style et de la couleur du footer contours arrondis et couleur orange*/
+footer {
+    background-color: darkorange;
+    border-radius: 15px 50px;
+}
+
+/* definition des couleur du titre h2 */
+h2 {
+    color: lightskyblue;
+}
+
+/* taille et couleur des separateurs*/
+hr {
+    width: 60%;
+    border-color: #5f5f5f;
+}
+/* couleur des messages d'erreur sur la page d'accueil */
+.errorlogin {
+    color: red;
+}
+/* classe attribué au logo */
+.logo-wrapper {
+    display: table;
+    width: 100%; /* definition largeur maximale */
+    background-image: url("http://i.imgur.com/162DBwY.jpg");  /* image de fond */
+    border-radius: 15px 50px;  /* bords arrondis */
+    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);  /* contours ombrés */
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);  /* contours ombrés */
+}
+/* gros div dans le body qui engloble qui forme le body */
+.ultimate-wrapper {
+    background-color: #4b4b4b;  /* couleur */
+    border-radius: 15px 50px;    /* bords arrondis */
+}
+
+.g-recaptcha {
+    padding-left: 15%;  /* tentative pour centrer le recaptcha  */
+}
+
+
+/*a partir d'ici tout est généré par bootstrap pour une template dont nous ne nous somme pas réelement servis*/
 a,
 a:focus,
 a:hover {
     color: #fff;
 }
 
-/* Custom default button */
+/* généré pas bootstrap  couleur du text dans les boutons et autres zones de textes etc*/
+input {
+    color: black;
+}
+
+/* généré pas bootstap */
+div .inner .cover {
+    padding-top: 500px;
+}
+
+@media (min-width: 768px) {
+    .masthead-brand {
+        float: left;
+    }
+
+    .masthead-nav {
+        float: right;
+    }
+}
+
+.navbar {
+    background-color: #985f0d;
+}
+
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
@@ -15,76 +110,9 @@ a:hover {
     border: 1px solid #fff;
 }
 
-.ultimate-wrapper {
-    background-color: #4b4b4b;
-    border-radius: 15px 50px;
-}
-
-.navbar {
-    background-color: #985f0d;
-}
-
-.g-recaptcha {
-   padding-left: 15%;
-}
-
-
 .col-lg-5 {
     margin-left: auto;
     margin-right: auto;
-}
-
-label, input {
-    /* in order to define widths */
-    display: inline-table;
-}
-
-label {
-    width: 35%;
-    /* positions the label text beside the input */
-    text-align: right;
-}
-
-label + input {
-    width: 30%;
-    /* large margin-right to force the next element to the new-line
-       and margin-left to create a gutter between the label and input */
-    margin: 0 30% 0 4%;
-}
-
-html, body {
-    height: 100%;
-    background-color: #303030;
-}
-
-body {
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
-}
-
-footer {
-    background-color: darkorange;
-    border-radius: 15px 50px;
-}
-
-h2 {
-    color: lightskyblue;
-}
-
-hr {
-    width: 60%;
-    border-color: #5f5f5f;
-}
-
-
-.logo-wrapper {
-    display: table;
-    width: 100%;
-    background-image: url("http://i.imgur.com/162DBwY.jpg");
-    border-radius: 15px 50px;
-    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);
-    box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);
 }
 
 .site-wrapper-inner {
@@ -142,29 +170,6 @@ hr {
     border-bottom-color: #fff;
 }
 
-@media (min-width: 768px) {
-    .masthead-brand {
-        float: left;
-    }
-
-    .masthead-nav {
-        float: right;
-    }
-}
-
-input {
-    color: black;
-}
-
-/*
- * Cover
- */
-
-div .inner .cover {
-    padding-top: 500px;
-
-}
-
 .cover {
     padding: 0 20px;
 }
@@ -173,10 +178,6 @@ div .inner .cover {
     padding: 10px 20px;
     font-weight: bold;
 }
-
-/*
- * Footer
- */
 
 .mastfoot {
     color: #999; /* IE8 proofing */
@@ -219,6 +220,7 @@ div .inner .cover {
         width: 700px;
     }
 }
+
 .panel-body{
     color: black;
 }
